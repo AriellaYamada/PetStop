@@ -18,10 +18,37 @@ nav {
 
 body {
   margin: 0px;
+  height: 1080px;
+}
+
+footer {
+  margin: 0px;
+  height: 60px;
+  background-color: #F43E0E;
+  text-align: center;
+  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  padding-top: 20px;
+  color: #EFE5D5;
 }
 
 #Carrousel {
   background-color: #EFE5D5;
   margin: 0px;
-  height: 390px;
+  height: 65%;
+}
+
+#About {
+  background-color: #69DDC3;
+  margin: 0px;
+  height: 65%;
+}
+
+#Services {
+  background-color: #568A8C;
+  height: 65%;
+}
+
+#Contact {
+  background-color: #EFE5D5;
+  height: 30%;
 }
