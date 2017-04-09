@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+	<meta charset='UTF-8'/>
+	<title>Pet Stop</title>
+	<link href='style.css' rel='stylesheet'/>
+</head>
+<body>
+	<form>
+		<input type='text' name='name' placeholder='Nome'></input>
+		<br/>
+		<input type='text' name='user' placeholder='Usuário'></input>
+		<br/>
+		Foto:
+		<input type='button' value='Enviar Foto'></input>
+		<br/>
+		<input type='text' name='tel' placeholder='Telefone'></input>
+		<br/>
+		<input type='text' name='email' placeholder='E-mail'></input>
+		<br/>
+		Tipo de Usuário:
+		<input type='radio' name='usertype' value='client' checked>Cliente</input>
+		<input type='radio' name='usertype' value='admin'>Administrador</input>
+		<br/>
+		<!-- esse campo irá sumir quando o tipo de usuário selecionado for administrador -->
+		<input type='text' class='addressField' name='address' placeholder='Endereço'></input> 
+	</form>
+</body>
+</html>
