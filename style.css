@@ -1,11 +1,17 @@
-@charset "UTF-8";
+@charset 'UTF-8';
 
 h1 {
   margin: 0px;
   color: #568A8C;
   padding-top: 15px;
   padding-left: 10px;
-  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+p {
+  margin: 0px;
+  color: #F56F42;
+  padding-top: 2%;
+  text-align: center;
 }
 
 nav {
@@ -14,19 +20,20 @@ nav {
   margin-top: 0px;
   background-color: #F56F42;
   height: 60px;
+	display: inline;
 }
 
 body {
   margin: 0px;
   height: 1080px;
+  font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
 }
 
 footer {
   margin: 0px;
-  height: 60px;
+  height: 40px;
   background-color: #F43E0E;
   text-align: center;
-  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
   padding-top: 20px;
   color: #EFE5D5;
 }
@@ -34,18 +41,24 @@ footer {
 #Carrousel {
   background-color: #EFE5D5;
   margin: 0px;
-  height: 65%;
+  height: 30%;
 }
 
 #About {
   background-color: #69DDC3;
-  margin: 0px;
-  height: 65%;
+  color: #F56F42;
+	padding-bottom: 5%;
+  height: auto;
+}
+
+#About h1 {
+	padding-left: 30px;
+	color: #F43E0E;
 }
 
 #Services {
   background-color: #568A8C;
-  height: 65%;
+  height: 30%;
 }
 
 #Contact {
