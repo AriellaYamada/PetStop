@@ -8,7 +8,7 @@ h1 {
 }
 
 h2 {
-	color: #F43E0E;	
+	color: #F43E0E;
 }
 
 h3 {
@@ -46,7 +46,6 @@ nav form {
 	margin-left: 30%;
 }
 
-
 body {
   margin: 0px;
   height: 1080px;
@@ -69,6 +68,13 @@ table, td, th {
 
 td, th {
 	padding: 5px;
+	color: #F56F42;
+}
+
+input, h4, select {
+	display: inline-block;
+	margin: 5px;
+	color: #568A8C;
 }
 
 .Register {
@@ -104,17 +110,18 @@ td, th {
 	margin: 15px;
 }
 
-#Carrousel {
+#Carrousel img {
   background-color: #EFE5D5;
   margin: 0px;
   height: 30%;
+	width: 100%
 }
 
 #About {
   background-color: #69DDC3;
   color: #F56F42;
 	padding-bottom: 5%;
-  height: auto;
+  height: 30%;
 	text-align: center;
 }
 
