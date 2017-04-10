@@ -7,8 +7,12 @@ h1 {
   padding-left: 10px;
 }
 
+h2 {
+	color: #F43E0E;	
+}
+
 h3 {
-	color: #568A8C;	
+	color: #568A8C;
 }
 
 p {
@@ -58,6 +62,15 @@ footer {
   color: #EFE5D5;
 }
 
+table, td, th {
+	width: 100%;
+	border: 2px solid #69DDC3;
+}
+
+td, th {
+	padding: 5px;
+}
+
 .Register {
 	background-color: #EFE5D5;
 	height: 90%;
@@ -87,7 +100,9 @@ footer {
 	margin: 5px;
 }
 
-
+.Info button {
+	margin: 15px;
+}
 
 #Carrousel {
   background-color: #EFE5D5;
