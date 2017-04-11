@@ -56,7 +56,7 @@ nav a {
 	display:inline-block;
 	padding:0px;
 	margin:0px;
-	width:80px;
+	min-width:80px;
 	float:left;
 	text-align:center;
 	line-height:60px;
@@ -100,25 +100,6 @@ input, h4, select {
 	color: #568A8C;
 }
 
-.Register {
-	background-color: #EFE5D5;
-	height: 90%;
-	padding: 30px;
-}
-
-.Register h1 {
-	padding: 0;
-	margin-bottom: 15px;
-}
-
-.Register p {
-	text-align: left;
-}
-
-.Register input {
-	margin: 5px;
-}
-
 .Info {
 	background-color: #EFE5D5;
 	height: 90%;
@@ -131,34 +112,4 @@ input, h4, select {
 
 .Info button {
 	margin: 15px;
-}
-
-#Carrousel img {
-	background-color: #EFE5D5;
-	margin: 0px;
-	height: 30%;
-	width: 100%
-}
-
-#About {
-	background-color: #69DDC3;
- 	color: #F56F42;
-	padding-bottom: 5%;
-	height: 30%;
-	text-align: center;
-}
-
-#About h1 {
-	padding-left: 30px;
-	color: #F43E0E;
-}
-
-#Services {
-	background-color: #568A8C;
-	height: 30%;
-}
-
-#Contact {
- 	background-color: #EFE5D5;
- 	height: 30%;
 }

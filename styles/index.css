@@ -1,0 +1,29 @@
+#Carrousel img {
+	background-color: #EFE5D5;
+	margin: 0px;
+	height: 30%;
+	width: 100%
+}
+
+#About {
+	background-color: #69DDC3;
+ 	color: #F56F42;
+	padding-bottom: 5%;
+	height: 30%;
+	text-align: center;
+}
+
+#About h1 {
+	padding-left: 30px;
+	color: #F43E0E;
+}
+
+#Services {
+	background-color: #568A8C;
+	height: 30%;
+}
+
+#Contact {
+ 	background-color: #EFE5D5;
+ 	height: 30%;
+}

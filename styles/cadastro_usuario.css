@@ -1,0 +1,18 @@
+.Register {
+	background-color: #EFE5D5;
+	height: 90%;
+	padding: 30px;
+}
+
+.Register h1 {
+	padding: 0;
+	margin-bottom: 15px;
+}
+
+.Register p {
+	text-align: left;
+}
+
+.Register input {
+	margin: 5px;
+}
