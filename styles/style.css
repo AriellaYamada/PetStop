@@ -73,8 +73,15 @@ nav a:hover
 	background-color:inherit;
 }
 
+table {
+	width: 90%;
+	margin-right: 5%;
+	margin-left: 5%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
 table, td, th {
-	width: 100%;
 	border: 2px solid #69DDC3;
 }
 
@@ -116,4 +123,41 @@ footer {
 
 .Info button {
 	margin: 15px;
+}
+
+.content {
+	background-color: #EFE5D5;
+	height: auto;
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-bottom:solid;
+	border-width:1px;
+	border-color: gray;
+	display: inline-block;
+}
+
+.content p
+{
+	margin-left: 10px;
+	margin-bottom: 10px;
+	color: black;
+}
+
+.content h1, a {
+	margin-left: 20px;
+}
+
+.content img {
+	margin: 15px;
+}
+
+.petdesc {
+	margin-top: 15px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.petdesc img {
+	margin: 0px;
 }

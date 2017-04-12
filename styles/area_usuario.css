@@ -51,24 +51,6 @@ img {
 	float: left;
 }
 
-.content {
-	background-color: #EFE5D5;
-	height: auto;
-	width: 100%;
-	padding: 30px;
-	border-bottom:solid;
-	border-width:1px;
-	border-color: gray;
-	display: inline-block;
-}
-
-.content p
-{
-	padding: 0;
-	margin-bottom: 10px;
-	color: black;
-}
-
 .petdesc {
 	border: solid;
 	border-width: 2px;
