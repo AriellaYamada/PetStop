@@ -16,6 +16,7 @@ table{
 a{
 	text-decoration: underline;
 	color: #62AAAD;
+	display: inline;
 }
 
 th, td{
@@ -24,11 +25,15 @@ th, td{
 	background-color:#EAE4DA;
 }
 
+img {
+	display: inline;
+}
 
 #profilepicdiv {
 	float: left;
 	text-align: center;
 	margin-right: 50px;
+	display: inline;
 }
 
 .sectiontitle {
@@ -36,6 +41,7 @@ th, td{
 	margin-left: 0px;
 	padding: 0px;
 }
+
 .profilepic {
 	height:200px;
 	width:200px;
@@ -47,11 +53,13 @@ th, td{
 
 .content {
 	background-color: #EFE5D5;
-	height: 300px;
+	height: auto;
+	width: 100%;
 	padding: 30px;
 	border-bottom:solid;
 	border-width:1px;
 	border-color: gray;
+	display: inline-block;
 }
 
 .content p
@@ -67,7 +75,7 @@ th, td{
 	border-color: gray;
 	height: 260px;
 	width: auto;
-	display: block;
+	display: inline;
 	float: left;
 	text-align: center;
 	background-color: #D2D6DD;

@@ -24,7 +24,7 @@ p {
 nav {
 	border: none;
 	background-color: #F56F42;
-  	height: 60px;
+	height: 60px;
 	align-content: center;
 	color: #568A8C;
 	margin:0px;
@@ -73,9 +73,25 @@ nav a:hover
 	background-color:inherit;
 }
 
+table, td, th {
+	width: 100%;
+	border: 2px solid #69DDC3;
+}
+
+input, h4, select {
+	display: inline-block;
+	margin: 5px;
+	color: #568A8C;
+}
+
+td, th {
+	padding: 5px;
+	color: #F56F42;
+}
+
 body {
 	margin: 0px;
-	height: 1080px;
+	height: 700px;
 	font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
 }
 
