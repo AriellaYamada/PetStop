@@ -87,12 +87,6 @@ footer {
 	color: #EFE5D5;
 }
 
-input, h4, select {
-	display: inline-block;
-	margin: 5px;
-	color: #568A8C;
-}
-
 .Info {
 	background-color: #EFE5D5;
 	height: 90%;

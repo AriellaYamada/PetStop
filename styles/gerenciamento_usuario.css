@@ -3,6 +3,12 @@ table, td, th {
 	border: 2px solid #69DDC3;
 }
 
+input, h4, select {
+	display: inline-block;
+	margin: 5px;
+	color: #568A8C;
+}
+
 td, th {
 	padding: 5px;
 	color: #F56F42;
