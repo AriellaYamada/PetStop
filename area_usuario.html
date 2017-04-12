@@ -9,6 +9,7 @@
   <nav>
     <h1> PetStop </h1>
 	<a href='#schedule'>Agendamentos</a>
+	<a href='#orders'>Seus Pedidos</a>
 	<a href='#pets'>Seus Pets</a>
 	<a href='#profile'>Seu Perfil</a>
 	<p> Olá, Rodrigo (logout)</p>
@@ -16,9 +17,64 @@
  <div class='content'>
  	<a name='schedule'></a>
  	<h1 class='sectiontitle'>Próximos Agendamentos</h1>
+	<table>
+		<tr>
+			<th>Serviço</th>
+			<th>Data</th>
+			<th>Pet</th>
+			<th>Preço</th>
+			<th></th>
+		</tr>
+		<tr>
+			<td>Reforço V10</td>
+			<td>12/04/2017 10:30</td>
+			<td><a href='#pets'>Toby</a></td>
+			<td>R$99,90</td>
+			<td><a href='#schedule'>Detalhes</a>
+		</tr>
+		<tr>
+			<td>Banho e Tosa Higiênica</td>
+			<td>12/04/2017 10:45</td>
+			<td><a href='#pets'>Toby</a></td>
+			<td>R$70,00</td>
+			<td><a href='#schedule'>Detalhes</a>
+		</tr>
+		<tr>
+			<td>Banho</td>
+			<td>12/04/2017 11:00</td>
+			<td><a href='#pets'>Kabosu</a></td>
+			<td>R$50,00</td>
+			<td><a href='#schedule'>Detalhes</a></td>
+		</tr>
+	
+	</table>
 	<a href='area_usuario.html#schedule'>Ver histórico de agendamentos</a>
  </div>
- <div class='content' href='#services'>
+ <div class='content'>
+ 	<a name='orders'></a>
+	<h1 class='sectiontitle'>Seus Pedidos</h1>
+	<table>
+		<tr>
+			<th>Pedido Nº</th>
+			<th>Produtos</th>
+			<th>Data</th>
+			<th>Total</th>
+		</tr>
+		<tr>
+			<td><a href='#orders'>8937503</a></td>
+			<td>1x Porta-Ração Petlove para Armazenar até 15 Kg - Laranja</td>
+			<td>01/03/2017</td>
+			<td>R$69,90</td>
+		</tr>
+		<tr>
+			<td><a href='#orders'>8939042</a></td>
+			<td>2x Ração Royal Canin Mini Adult<br/>1x Brinquedo Osso Borracha com Cravo - Vermelho</td>
+			<td>12/04/2017</td>
+			<td>R$80,88</td>
+		</tr>
+	</table>
+ </div>
+ <div class='content'>
  	<a name='pets'></a>
  	<h1 class='sectiontitle'>Seus Pets</h1>
 	<div class='petdesc'>
@@ -33,8 +89,9 @@
 		<p>???</p>
 		<a href='#pets'>Detalhes</a>
 	</div>
-	<a style='display:block;float:none;'href='area_usuario.html#pets'>Cadastrar Novo</a>
+	<a href='area_usuario.html#pets'>Cadastrar Novo</a>
  </div>
+
  <div class='content'>
  	<a name='profile'></a>
  	<h1 class='sectiontitle'>Seu Perfil</h1>

@@ -9,6 +9,22 @@ nav p
 	text-align: center;
 }
 
+table{
+	border-collapse: collapse;
+}
+
+a{
+	text-decoration: underline;
+	color: #62AAAD;
+}
+
+th, td{
+	border: solid;
+	border-width:1px;
+	background-color:#EAE4DA;
+}
+
+
 #profilepicdiv {
 	float: left;
 	text-align: center;
@@ -33,6 +49,9 @@ nav p
 	background-color: #EFE5D5;
 	height: 300px;
 	padding: 30px;
+	border-bottom:solid;
+	border-width:1px;
+	border-color: gray;
 }
 
 .content p

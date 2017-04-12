@@ -54,7 +54,10 @@ nav a {
 	background-color: #F06040;
 	height:60px;
 	display:inline-block;
-	padding:0px;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 0px;
+	padding-bottom: 0px;
 	margin:0px;
 	min-width:80px;
 	float:left;
@@ -82,16 +85,6 @@ footer {
 	text-align: center;
 	padding-top: 20px;
 	color: #EFE5D5;
-}
-
-table, td, th {
-	width: 100%;
-	border: 2px solid #69DDC3;
-}
-
-td, th {
-	padding: 5px;
-	color: #F56F42;
 }
 
 input, h4, select {

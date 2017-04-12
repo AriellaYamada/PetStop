@@ -1,0 +1,9 @@
+table, td, th {
+	width: 100%;
+	border: 2px solid #69DDC3;
+}
+
+td, th {
+	padding: 5px;
+	color: #F56F42;
+}
