@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+  <meta charset='UTF-8'/>
+  <title>Pet Stop</title>
+  <link href='styles/style.css' rel='stylesheet'/>
+  <link href='styles/area_usuario.css' rel='stylesheet'/>
+</head>
+<body>
+  <nav>
+    <h1> PetStop </h1>
+	<a href='#schedule'>Agendamentos</a>
+	<a href='#pets'>Seus Pets</a>
+	<a href='#profile'>Seu Perfil</a>
+	<p> Olá, Rodrigo (logout)</p>
+  </nav>
+ <div class='content'>
+ 	<a name='schedule'></a>
+ 	<h1 class='sectiontitle'>Próximos Agendamentos</h1>
+	<a href='area_usuario.html#schedule'>Ver histórico de agendamentos</a>
+ </div>
+ <div class='content' href='#services'>
+ 	<a name='pets'></a>
+ 	<h1 class='sectiontitle'>Seus Pets</h1>
+	<div class='petdesc'>
+		<img src='img/doge.jpg'></img>
+		<p>Kabosu</p>
+		<p>Shiba Inu</p>
+		<a href='#pets'>Detalhes</a>
+	</div>
+	<div class='petdesc'>
+		<img src='img/borkdrive.png'></img>
+		<p>Toby</p>
+		<p>???</p>
+		<a href='#pets'>Detalhes</a>
+	</div>
+	<a style='display:block;float:none;'href='area_usuario.html#pets'>Cadastrar Novo</a>
+ </div>
+ <div class='content'>
+ 	<a name='profile'></a>
+ 	<h1 class='sectiontitle'>Seu Perfil</h1>
+	<div id='profilepicdiv'>
+		<img class='profilepic' src='img/profilepic.jpg'><br/></img>
+		<a href='area_usuario.html#profile'>Alterar Foto</a>
+	</div>
+
+	<p>Rodrigo Weigert</p>
+	<p>Nome de usuário: rodz <a href='area_usuario.html#profile'>(alterar senha)</a></p>
+	<p>Endereço: Rua Tiradentes, 123 <a href='area_usuario.html#profile'>(alterar)</a></p>
+	<p>Telefone: (17) 12345678 <a href='area_usuario.html#profile'>(alterar)</a></p>
+	<p>E-mail: rodrigo.weigert@usp.br <a href='area_usuario.html#profile'>(alterar)</a></p>
+ </div>
+  <footer>Todos os direitos reservados</footer>
+</body>
+
+
+</html>

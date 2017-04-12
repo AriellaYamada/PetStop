@@ -1,0 +1,68 @@
+nav p
+{
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	color: #568A8C;
+	height: inherit;
+	line-height: 60px;
+	text-align: center;
+}
+
+#profilepicdiv {
+	float: left;
+	text-align: center;
+	margin-right: 50px;
+}
+
+.sectiontitle {
+	margin-bottom: 20px;
+	margin-left: 0px;
+	padding: 0px;
+}
+.profilepic {
+	height:200px;
+	width:200px;
+	border-style: solid;
+	border-color: #568A8C;
+	padding: 2px;
+	float: left;
+}
+
+.content {
+	background-color: #EFE5D5;
+	height: 300px;
+	padding: 30px;
+}
+
+.content p
+{
+	padding: 0;
+	margin-bottom: 10px;
+	color: black;
+}
+
+.petdesc {
+	border: solid;
+	border-width: 2px;
+	border-color: gray;
+	height: 260px;
+	width: auto;
+	display: block;
+	float: left;
+	text-align: center;
+	background-color: #D2D6DD;
+	margin-right: 5px;
+}
+
+.petdesc img {
+	height:200px;
+	width:200px;
+	padding: 2px;
+	float: left;
+}
+
+.petdesc p {
+	padding: 0px;
+	margin: 0px;
+}
