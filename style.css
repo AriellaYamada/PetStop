@@ -164,25 +164,6 @@ td, th {
 
 /* ------------- Divs com conteúdo principal ------------- */
 
-
-/* A classe Info só está sendo usada em gerenciamento_usuario.html
-e detalhes_produto.html. Sugestão: combinar essa classe com a classe content,
-ajustar melhor e no final ter apenas uma classe para usar.*/
-
-.Info {
-	background-color: #EFE5D5;
-	height: 90%;
-	padding: 30px;
-}
-
-.Info a {
-	margin: 5px;
-}
-
-.Info button {
-	margin: 15px;
-}
-
 /* Classe content, seria a div onde se põe os conteúdos principais do site? */
 
 .content {
@@ -277,8 +258,9 @@ Obs: o estilo do formulário destas páginas está ligeiramente diferente. */
 	border: solid;
 	border-width: 2px;
 	border-color: gray;
-	height: auto;	width: 204px;
-	display: inline-block;
+	height: auto;
+	width: 204px;
+	display: inline;
 	float: left;
 	text-align: center;
 	background-color: #D2D6DD;

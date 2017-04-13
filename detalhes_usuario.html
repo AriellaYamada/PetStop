@@ -7,27 +7,104 @@
 <body>
 	<nav>
 		<h1> PetStop </h1>
+		<a href='#profile'>Informações</a>
+		<a href='#pets'>Pets</a>
+		<a href='#schedule'>Agendamentos</a>
+		<a href='#orders'>Pedidos</a>
+		<p> Olá, Rodrigo (logout)</p>
 	</nav>
-	<div class='Info'>
-		<p>avatar.jpg
-			<br />
-		Usuário: rodz
-		<br />
-		Nome: Rodrigo Weigert
-		<br />
-		Telefone: (17)12345678
-		<br />
-		E-mail: rodrigo.weigert@usp.br
-		<br />
-		Endereço: Rua Tiradentes, 123</p>
+	<div class='content'>
+		<h1> Informações do Cliente</h1>
+		<a name='profile'></a>
+		<div id='profilepicdiv'>
+			<img class='profilepic' src='img/profilepic.jpg'><br/></img>
+			<a href='area_usuario.html#profile'>Alterar Foto</a>
+		</div>
+
+		<p>Rodrigo Weigert</p>
+		<p>Nome de usuário: rodz <a href='area_usuario.html#profile'>(alterar senha)</a></p>
+		<p>Endereço: Rua Tiradentes, 123 <a href='area_usuario.html#profile'>(alterar)</a></p>
+		<p>Telefone: (17) 12345678 <a href='area_usuario.html#profile'>(alterar)</a></p>
+		<p>E-mail: rodrigo.weigert@usp.br <a href='area_usuario.html#profile'>(alterar)</a></p>
 		<button type='button'>Editar</button>
 		<button type='button'>Excluir</button>
-		<h3>Animais:</h3>
-		...
-		<h3>Próximos Agendamentos:</h3>
-		...
-		<br/>
-		<a href='detalhes_usuario.html'>Ver Todos</a>
+	</div>
+	<div class='content'>
+		<a name='pets'></a>
+		<h1>Animais:</h1>
+		<div class='petdesc'>
+			<img src='img/doge.jpg'></img>
+			<p>Kabosu</p>
+			<p>Shiba Inu</p>
+			<a href='#pets'>Detalhes</a>
+		</div>
+		<div class='petdesc'>
+			<img src='img/borkdrive.png'></img>
+			<p>Toby</p>
+			<p>???</p>
+			<a href='#pets'>Detalhes</a>
+		</div>
+		<a href='cadastro_pet.html'>Cadastrar Novo</a>
+	</div>
+	<div class='content'>
+		<a name='schedule'></a>
+		<h1>Próximos Agendamentos:</h1>
+		<table>
+			<tr>
+				<th>Serviço</th>
+				<th>Data</th>
+				<th>Pet</th>
+				<th>Preço</th>
+				<th></th>
+			</tr>
+			<tr>
+				<td>Reforço V10</td>
+				<td>12/04/2017 10:30</td>
+				<td><a href='#pets'>Toby</a></td>
+				<td>R$99,90</td>
+				<td><a href='#schedule'>Detalhes</a>
+			</tr>
+			<tr>
+				<td>Banho e Tosa Higiênica</td>
+				<td>12/04/2017 10:45</td>
+				<td><a href='#pets'>Toby</a></td>
+				<td>R$70,00</td>
+				<td><a href='#schedule'>Detalhes</a>
+			</tr>
+			<tr>
+				<td>Banho</td>
+				<td>12/04/2017 11:00</td>
+				<td><a href='#pets'>Kabosu</a></td>
+				<td>R$50,00</td>
+				<td><a href='#schedule'>Detalhes</a></td>
+			</tr>
+
+		</table>
+		<a href='area_usuario.html#schedule'>Ver histórico de agendamentos</a>
+	 </div>
+	 <div class='content'>
+	 	<a name='orders'></a>
+		<h1>Pedidos</h1>
+		<table>
+			<tr>
+				<th>Pedido Nº</th>
+				<th>Produtos</th>
+				<th>Data</th>
+				<th>Total</th>
+			</tr>
+			<tr>
+				<td><a href='#orders'>8937503</a></td>
+				<td>1x Porta-Ração Petlove para Armazenar até 15 Kg - Laranja</td>
+				<td>01/03/2017</td>
+				<td>R$69,90</td>
+			</tr>
+			<tr>
+				<td><a href='#orders'>8939042</a></td>
+				<td>2x Ração Royal Canin Mini Adult<br/>1x Brinquedo Osso Borracha com Cravo - Vermelho</td>
+				<td>12/04/2017</td>
+				<td>R$80,88</td>
+			</tr>
+		</table>
 	</div>
 	<footer>Todos os direitos reservados</footer>
 </body>
