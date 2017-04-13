@@ -97,6 +97,7 @@ nav a:hover
 }
 
 /* Saudação na nav bar da area_usuario.html */
+
 nav p
 {
 	margin: 0px;
@@ -107,7 +108,6 @@ nav p
 	line-height: 60px;
 	text-align: center;
 }
-
 
 /* ------------- Elementos exclusivos do index.html ------------- */
 
@@ -166,7 +166,7 @@ td, th {
 
 
 /* A classe Info só está sendo usada em gerenciamento_usuario.html
-e detalhes_produto.html. Sugestão: combinar essa classe com a classe content, 
+e detalhes_produto.html. Sugestão: combinar essa classe com a classe content,
 ajustar melhor e no final ter apenas uma classe para usar.*/
 
 .Info {
@@ -184,6 +184,7 @@ ajustar melhor e no final ter apenas uma classe para usar.*/
 }
 
 /* Classe content, seria a div onde se põe os conteúdos principais do site? */
+
 .content {
 	background-color: #EFE5D5;
 	height: 600px;
@@ -271,20 +272,23 @@ Obs: o estilo do formulário destas páginas está ligeiramente diferente. */
 }
 
 /* ------------- Descrições de Pets (area_usuario.html) ------------- */
+
 .petdesc {
 	border: solid;
 	border-width: 2px;
 	border-color: gray;
-	height: 260px;
-	width: auto;
-	display: inline;
+	height: auto;	width: 204px;
+	display: inline-block;
 	float: left;
 	text-align: center;
 	background-color: #D2D6DD;
-	margin-right: 5px;
 	margin-top: 15px;
 	margin-left: 20px;
 	margin-right: 20px;
+}
+
+.petdesc a {
+	margin: 0px;
 }
 
 .petdesc img {
