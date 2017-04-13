@@ -15,6 +15,12 @@ h3 {
 	color: #568A8C;
 }
 
+input, h4, select {
+	display: inline-block;
+	margin: 5px;
+	color: #568A8C;
+}
+
 p {
 	margin: 0px;
 	color: #F56F42;
@@ -155,12 +161,6 @@ td, th {
 	color: #F56F42;
 }
 
-input, h4, select {
-	display: inline-block;
-	margin: 5px;
-	color: #568A8C;
-}
-
 
 /* ------------- Divs com conteúdo principal ------------- */
 
@@ -242,7 +242,7 @@ Obs: o estilo do formulário destas páginas está ligeiramente diferente. */
 	margin-bottom: 10px;
 }
 
-/* Classes usadas em loja.html. Unificar com outras? */
+/* ------------- Classes exclusivas de loja.html. Unificar com outras? ------------- */
 
 .ProdutosVenda {
 	background-color: #EFE5D5;
@@ -300,7 +300,7 @@ Obs: o estilo do formulário destas páginas está ligeiramente diferente. */
 	margin: 0px;
 }
 
-/* Profile Pic na area_usuario.html */
+/* ------------- Profile Pic na area_usuario.html ------------- */
 
 #profilepicdiv {
 	float: left;
