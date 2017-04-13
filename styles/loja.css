@@ -1,0 +1,25 @@
+.ProdutosVenda {
+	background-color: #EFE5D5;
+	height: 90%;
+	padding: 30px;
+}
+
+.Filtros {
+	float: left;
+	background-color: #EFE5D5;
+	width: 25%;
+}
+
+.Produtos {
+	background-color: #EFE5D5;
+	margin-left: 30%;
+	width: 60%;
+}
+
+.Produtos table {
+	border: 2px #EFE5D5;
+}
+
+.Produtos td, th {
+	border: 2px #EFE5D5;
+}
