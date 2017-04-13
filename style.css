@@ -1,0 +1,319 @@
+@charset 'UTF-8';
+
+h1 {
+	margin: 0px;
+	color: #568A8C;
+	padding-top: 15px;
+	padding-left: 10px;
+}
+
+h2 {
+	color: #F43E0E;
+}
+
+h3 {
+	color: #568A8C;
+}
+
+p {
+	margin: 0px;
+	color: #F56F42;
+	padding-top: 2%;
+}
+
+body {
+	margin: 0px;
+	height: 700px;
+	font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+footer {
+	margin: 0px;
+	height: 40px;
+	background-color: #F43E0E;
+	text-align: center;
+	padding-top: 20px;
+	color: #EFE5D5;
+}
+
+/* ------------- Barra de navegação no topo das páginas ------------- */
+
+nav {
+	border: none;
+	background-color: #F56F42;
+	height: 60px;
+	align-content: center;
+	color: #568A8C;
+	margin:0px;
+	padding:0px;
+}
+
+nav h1 {
+	margin: 15px;
+	padding: 0px;
+	margin-left: 20px;
+	display: inline-block;
+	float:left;
+}
+
+nav button {
+	margin-top: 20px;
+	margin-left: 10px;
+	display: inline;
+}
+
+nav form {
+	display: inline;
+	margin-left: 22%;
+}
+
+nav a {
+	background-color: #F06040;
+	height:60px;
+	display:inline-block;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin:0px;
+	min-width:80px;
+	float:left;
+	text-align:center;
+	line-height:60px;
+	color: inherit;
+	text-decoration: none;
+	display: inline;
+}
+
+nav a:hover
+{
+	background-color:inherit;
+}
+
+/* Saudação na nav bar da area_usuario.html */
+nav p
+{
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	color: #568A8C;
+	height: inherit;
+	line-height: 60px;
+	text-align: center;
+}
+
+
+/* ------------- Elementos exclusivos do index.html ------------- */
+
+#Carrousel img {
+	background-color: #EFE5D5;
+	margin: 0px;
+	height: 30%;
+	width: 100%
+}
+
+#About {
+	background-color: #69DDC3;
+ 	color: #F56F42;
+	padding-bottom: 5%;
+	height: 30%;
+	text-align: center;
+}
+
+#About h1 {
+	padding-left: 30px;
+	color: #F43E0E;
+}
+
+#Services {
+	background-color: #568A8C;
+	height: 30%;
+}
+
+#Contact {
+ 	background-color: #EFE5D5;
+ 	height: 30%;
+}
+
+/* ------------- Tabelas e seus elementos ------------- */
+
+table {
+	width: 90%;
+	margin-right: 5%;
+	margin-left: 5%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-collapse: collapse;		/* antes só estava sendo usado na area_usuario.html, ver o que é melhor */
+}
+
+table, td, th {
+	border: 2px solid #69DDC3;
+}
+
+td, th {
+	padding: 5px;
+	color: #F56F42;
+}
+
+input, h4, select {
+	display: inline-block;
+	margin: 5px;
+	color: #568A8C;
+}
+
+
+/* ------------- Divs com conteúdo principal ------------- */
+
+
+/* A classe Info só está sendo usada em gerenciamento_usuario.html
+e detalhes_produto.html. Sugestão: combinar essa classe com a classe content, 
+ajustar melhor e no final ter apenas uma classe para usar.*/
+
+.Info {
+	background-color: #EFE5D5;
+	height: 90%;
+	padding: 30px;
+}
+
+.Info a {
+	margin: 5px;
+}
+
+.Info button {
+	margin: 15px;
+}
+
+/* Classe content, seria a div onde se põe os conteúdos principais do site? */
+.content {
+	background-color: #EFE5D5;
+	height: 600px;
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-bottom:solid;
+	border-width:1px;
+	border-color: gray;
+	display: inline-block;
+}
+
+.content p
+{
+	margin-left: 10px;
+	margin-bottom: 10px;
+	color: black;
+}
+
+.content h1, a, input {
+	margin-left: 20px;			/* essa margem nos <a> pode estar tendo efeitos inesperados (na area_usuario.html por exemplo) */
+}
+
+.content img {
+	margin: 15px;
+}
+
+/* Register contém formulário de cadastro. É usada em cadastro_pet.html, cadastro_usuario.html, cadastro_produto.html.
+Obs: o estilo do formulário destas páginas está ligeiramente diferente. */
+
+.Register {
+	background-color: #EFE5D5;
+	height: 90%;
+	padding: 30px;
+}
+
+.Register h1 {
+	padding: 0;
+	margin-bottom: 15px;
+}
+
+.Register p {
+	text-align: left;
+}
+
+.Register input {
+	margin: 5px;
+}
+
+.Register form {
+	color: #568A8C;
+}
+
+.Register form input
+{
+	margin-bottom: 10px;
+}
+
+/* Classes usadas em loja.html. Unificar com outras? */
+
+.ProdutosVenda {
+	background-color: #EFE5D5;
+	height: 90%;
+	padding: 30px;
+}
+
+.Filtros {
+	float: left;
+	background-color: #EFE5D5;
+	width: 25%;
+}
+
+.Produtos {
+	background-color: #EFE5D5;
+	margin-left: 30%;
+	width: 60%;
+}
+
+.Produtos table {
+	border: 2px #EFE5D5;
+}
+
+.Produtos td, th {
+	border: 2px #EFE5D5;
+}
+
+/* ------------- Descrições de Pets (area_usuario.html) ------------- */
+.petdesc {
+	border: solid;
+	border-width: 2px;
+	border-color: gray;
+	height: 260px;
+	width: auto;
+	display: inline;
+	float: left;
+	text-align: center;
+	background-color: #D2D6DD;
+	margin-right: 5px;
+	margin-top: 15px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.petdesc img {
+	margin: 0px;
+	height:200px;
+	width:200px;
+	padding: 2px;
+	float: left;
+}
+
+.petdesc p {
+	padding: 0px;
+	margin: 0px;
+}
+
+/* Profile Pic na area_usuario.html */
+
+#profilepicdiv {
+	float: left;
+	text-align: center;
+	margin-right: 50px;
+	display: inline;
+}
+
+.profilepic {
+	height:200px;
+	width:200px;
+	border-style: solid;
+	border-color: #568A8C;
+	padding: 2px;
+	float: left;
+}
