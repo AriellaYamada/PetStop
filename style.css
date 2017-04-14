@@ -134,6 +134,11 @@ nav p
 #Services {
 	background-color: #568A8C;
 	height: 30%;
+	text-align: center;
+}
+
+#Services h1 {
+	color: #F43E0E;
 }
 
 #Contact {
