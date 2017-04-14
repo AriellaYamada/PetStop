@@ -9,22 +9,18 @@
 	<div class='Register'>
 		<h1> Cadastro de Usuários</h1>
 		<form>
-			<p>Nome: <input type='text' name='name'></input>
-			<br/>
-			Usuário:	<input type='text' name='user'></input>
-			<br/>
-			Foto: <input type='button' value='Carregar Foto'></input>
-			<br/>
-			Telefone: <input type='text' name='tel'></input>
-			<br/>
-			E-mail: <input type='text' name='email'></input>
-			<br/>
-			Tipo de Usuário:
+			<p>Nome:</p><input type='text' name='name'></input>
+			<p>Usuário:</p><input type='text' name='user'></input>
+			<p>Foto:</p><input type='button' value='Carregar Foto'></input>
+			<p>Telefone:</p><input type='text' name='tel'></input>
+			<p>E-mail:</p><input type='text' name='email'></input>
+			<p>Tipo de Usuário:</p>
 			<input type='radio' name='usertype' value='client' checked>Cliente</input>
 			<input type='radio' name='usertype' value='admin'>Administrador</input>
 			<br/>
 			<!-- esse campo irá sumir quando o tipo de usuário selecionado for administrador -->
-			<input type='text' class='addressField' name='address' placeholder='Endereço'></input>
+			<p>Endereço (se cliente):</p> 
+			<input type='text' class='addressField' name='address'></input>
 			</br>
 			<input type='submit' value='Gerar Senha e Salvar'/></p>
 		</form>

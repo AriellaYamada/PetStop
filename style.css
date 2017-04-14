@@ -15,16 +15,22 @@ h3 {
 	color: #568A8C;
 }
 
-input, h4, select {
+h4, select {
 	display: inline-block;
 	margin: 5px;
 	color: #568A8C;
 }
 
+input {
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+}
+
 p {
 	margin: 0px;
+	padding: 0px;
 	color: #F56F42;
-	padding-top: 2%;
 }
 
 body {
@@ -198,7 +204,7 @@ td, th {
 	color: black;
 }
 
-.content h1, a, input {
+.content h1, .content a, .content input {
 	margin-left: 20px;			/* essa margem nos <a> pode estar tendo efeitos inesperados (na area_usuario.html por exemplo) */
 }
 
@@ -224,17 +230,17 @@ Obs: o estilo do formulário destas páginas está ligeiramente diferente. */
 	text-align: left;
 }
 
-.Register input {
-	margin: 5px;
-}
-
 .Register form {
-	color: #568A8C;
+	color: #F56F42;
 }
 
-.Register form input
-{
-	margin-bottom: 10px;
+.Register form input {
+	margin-top: 3px;
+	margin-bottom: 15px;
+}
+
+.Register form input[type=radio] {
+	margin-right: 5px;
 }
 
 /* ------------- Classes exclusivas de loja.html. Unificar com outras? ------------- */
