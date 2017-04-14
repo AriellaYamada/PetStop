@@ -62,18 +62,8 @@ nav h1 {
 	float:left;
 }
 
-nav button {
-	margin-top: 20px;
-	margin-left: 10px;
-	display: inline;
-}
-
-nav form {
-	display: inline;
-	margin-left: 22%;
-}
-
-nav a {
+/* Botões/links de navegação */
+nav .navButton{
 	background-color: #F06040;
 	height:60px;
 	display:inline-block;
@@ -91,10 +81,28 @@ nav a {
 	display: inline;
 }
 
-nav a:hover
+/* Muda a cor do botão para a mesma cor do background quando o mouse está em cima */
+nav .navButton:hover
 {
 	background-color:inherit;
 }
+
+nav form {
+	display: inline;
+	margin-left: 22%;
+}
+
+/* Para o botão "Entrar" no index.html */
+nav form a {
+	text-decoration: none;
+}
+
+nav form a button {
+	margin-top: 20px;
+	margin-left: 10px;
+	display: inline;
+}
+
 
 /* Saudação na nav bar da area_usuario.html */
 
