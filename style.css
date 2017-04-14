@@ -136,7 +136,7 @@ nav p
 	background-color: #69DDC3;
  	color: #F56F42;
 	padding-bottom: 5%;
-	height: 30%;
+	height: 650px;
 	text-align: center;
 }
 
@@ -145,20 +145,36 @@ nav p
 	color: #F43E0E;
 }
 
+#About p {
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 18px;
+}
+
 #Services {
-	background-color: #568A8C;
-	height: 30%;
+	background-color: #F56F42;
+	height: 650px;
 	text-align: center;
 }
 
-#Services h1 {
-	color: #F43E0E;
+#Services p {
+	color: #EFE5D5;
+	font-size: 18px;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+
 }
 
 #Contact {
  	background-color: #EFE5D5;
- 	height: 30%;
+ 	height: 400px;
 }
+
+
 
 /* ------------- Tabelas e seus elementos ------------- */
 
@@ -204,7 +220,7 @@ td, th {
 	color: black;
 }
 
-.content h1, .content input {
+.content h1 {
 	margin-left: 20px;			/* essa margem nos <a> pode estar tendo efeitos inesperados (na area_usuario.html por exemplo) */
 }
 
@@ -216,6 +232,14 @@ td, th {
 
 .content img {
 	margin: 15px;
+}
+
+.content input {
+ margin-left: 5%;
+}
+.content button {
+	margin: 20px;
+	margin-left: 5%;
 }
 
 /* Register contém formulário de cadastro. É usada em cadastro_pet.html, cadastro_usuario.html, cadastro_produto.html.
