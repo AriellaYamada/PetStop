@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<head>
+  <meta charset='UTF-8'/>
+  <title>Pet Stop</title>
+  <link href='style.css' rel='stylesheet'/>
+</head>
+<body>
+  <nav>
+  	<h1> PetStop </h1>
+	<a class='navButton' href='#schedule'>Agendamentos</a>
+	<a class='navButton' href='#products'>Estoque</a>
+	<a class='navButton' href='#users'>Usuários</a>
+	<a class='navButton' href='#profile'>Seu Perfil</a>
+	<p> Olá, ADM (logout)</p>
+	</nav>
+ <div class='content'>
+ 	<a name='schedule'></a>
+ 	<h1>Próximos Agendamentos</h1>
+	<table>
+		<tr>
+			<th>Serviço</th>
+			<th>Data</th>
+			<th>Pet</th>
+			<th>Cliente</th>
+			<th>Preço</th>
+			<th>Pagamento</th>
+		</tr>
+		<tr>
+			<td>Reforço V10</td>
+			<td>12/04/2017 10:30</td>
+			<td><a href='#pets'>Toby</a></td>
+			<td><a href='detalhes_usuario.html'>rodz</td>
+			<td>R$99,90</td>
+			<td>09/04/2017 - Visa terminado em 1234</td>
+		</tr>
+		<tr>
+			<td>Banho e Tosa Higiênica</td>
+			<td>12/04/2017 10:45</td>
+			<td><a href='#pets'>Toby</a></td>
+			<td><a href='detalhes_usuario.html'>rodz</td>
+			<td>R$70,00</td>
+			<td>09/04/2017 - Visa terminado em 1234</td>
+		</tr>
+		<tr>
+			<td>Banho</td>
+			<td>12/04/2017 11:00</td>
+			<td><a href='#pets'>Kabosu</a></td>
+			<td><a href='detalhes_usuario.html'>rodz</td>
+			<td>R$50,00</td>
+			<td>09/04/2017 - Visa terminado em 1234</td>
+		</tr>
+	</table>
+	<a href='cadastro_servico.html'><button>Cadastrar Novo</button></a>
+ </div>
+ <div class='content'>
+ 	<a name='products'></a>
+	<h1>Situação do Estoque</h1>
+	<table>
+			<tr>
+				<th>Produto</th>
+				<th>Descrição</th>
+				<th>Preço</th>
+				<th>Embalagem</th>
+				<th>Quantidade em estoque</th>
+				<th>Quantidade vendida</th>
+				<th></th>
+			</tr>
+			<tr>
+				<td>Ração para Cães</td>
+				<td>Ração Pedigree para cães filhotes</td>
+				<td>R$5,90</td>
+				<td>1kg</td>
+				<td>100 unidades</td>
+				<td>45 unidades</td>
+				<td><a href='detalhes_produto.html'>Detalhes</a></td>
+			</tr>
+			<tr>
+				<td>Antipulgas e Carrapatos</td>
+				<td>Antipulgas e Carrapatos MSD Bravecto para Cães de 4,5 a 10 kg</td>
+				<td>R$178,90</td>
+				<td>1 Comprimido 200mg</td>
+				<td>200 unidades</td>
+				<td>13 unidades</td>
+				<td>Detalhes</td>
+			</tr>
+			<tr>
+				<td>Ração para Gatos</td>
+				<td>Ração Whiskas Sachê Carne para Gatos Adultos</td>
+				<td>R$1,69</td>
+				<td>85g</td>
+				<td>500 unidades</td>
+				<td>180 unidades</td>
+				<td>Detalhes</td>
+			</tr>
+		</table>
+	<a href='cadastro_produto.html'><button>Cadastrar Novo</button></a>
+ </div>
+ <div class='content'>
+ 	<a name='users'></a>
+ 	<table>
+			<h1>Usuários Cadastrados</h1>
+			<tr>
+				<th><h3>Usuário</h3></th>
+				<th><h3>Nome</h3></th>
+				<th></th>
+			</tr>
+			<tr>
+				<td>rodz</td>
+				<td>Rodrigo Weigert</td>
+				<td><a href='detalhes_usuario.html'>Detalhes</a></td>
+			</tr>
+			<tr>
+				<td>AriellaYamada</td>
+				<td>AriellaYamada</td>
+				<td>Detalhes</td>
+			</tr>
+			<tr>
+				<td>admin</td>
+				<td>Administrador</td>
+				<td>Detalhes</td>
+			</tr>
+		</table>
+	<a href='cadastro_usuario.html'><button>Cadastrar Novo</button></a>
+ </div>
+
+ <div class='content'>
+ 	<a name='profile'></a>
+ 	<h1>Seu Perfil</h1>
+	<div id='profilepicdiv'>
+		<img class='profilepic' src='img/profilepic.jpg'><br/></img>
+		<a href='area_usuario.html#profile'>Alterar Foto</a>
+	</div>
+	<br/>
+	<p>Perfil de Administrador</p>
+	<p>Nome de usuário: adm <a href='area_usuario.html#profile'>(alterar senha)</a></p>
+	<p>Endereço: Rua Tiradentes, 123 <a href='area_usuario.html#profile'>(alterar)</a></p>
+	<p>Telefone: (17) 12345678 <a href='area_usuario.html#profile'>(alterar)</a></p>
+	<p>E-mail: adm@adm.br <a href='area_usuario.html#profile'>(alterar)</a></p>
+ </div>
+  <footer>Todos os direitos reservados</footer>
+</body>
+
+
+</html>
