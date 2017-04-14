@@ -204,8 +204,14 @@ td, th {
 	color: black;
 }
 
-.content h1, .content a, .content input {
+.content h1, .content input {
 	margin-left: 20px;			/* essa margem nos <a> pode estar tendo efeitos inesperados (na area_usuario.html por exemplo) */
+}
+
+/* Melhorar estilo dos links? */
+.content a:link, .content a:visited {
+	text-decoration: none;
+	color: blue;
 }
 
 .content img {
@@ -305,7 +311,7 @@ Obs: o estilo do formulário destas páginas está ligeiramente diferente. */
 	margin: 0px;
 }
 
-/* ------------- Profile Pic na area_usuario.html ------------- */
+/* ------------- Profile Pic na area_usuario.html e detalhes_usuario.html ------------- */
 
 #profilepicdiv {
 	float: left;
