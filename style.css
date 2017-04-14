@@ -260,7 +260,7 @@ Obs: o estilo do formulário destas páginas está ligeiramente diferente. */
 .Filtros {
 	float: left;
 	background-color: #EFE5D5;
-	width: 25%;
+	width: auto;
 }
 
 .Produtos {
@@ -275,6 +275,12 @@ Obs: o estilo do formulário destas páginas está ligeiramente diferente. */
 
 .Produtos td, th {
 	border: 2px #EFE5D5;
+	text-align: center;
+}
+
+.Produtos table tr td img {
+	width:100px;
+	height:100px;
 }
 
 /* ------------- Descrições de Pets (area_usuario.html) ------------- */
