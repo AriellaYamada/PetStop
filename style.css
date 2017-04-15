@@ -134,7 +134,6 @@ nav p
 
 #About {
 	background-color: #69DDC3;
- 	color: #F56F42;
 	padding-bottom: 5%;
 	height: 650px;
 	text-align: center;
@@ -172,6 +171,18 @@ nav p
 #Contact {
  	background-color: #EFE5D5;
  	height: 400px;
+}
+
+#Contact h1 {
+margin-left: 2%;	
+}
+
+#Contact p {
+	color: #568A8C;
+	font-size: 18px;
+	text-align:left;
+	margin-left: 5%;
+	margin-top: 30px;
 }
 
 
