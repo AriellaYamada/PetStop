@@ -109,7 +109,6 @@ nav form a button {
 	display: inline;
 }
 
-
 /* Saudação na nav bar da area_usuario.html */
 
 nav p
@@ -250,6 +249,11 @@ td, th {
 
 .content h1 {
 	margin-left: 20px;			/* essa margem nos <a> pode estar tendo efeitos inesperados (na area_usuario.html por exemplo) */
+}
+
+/* margem da tag <a> na area de historico do usuario */
+#hist {
+	margin-left: 5%;
 }
 
 /* Melhorar estilo dos links? */
