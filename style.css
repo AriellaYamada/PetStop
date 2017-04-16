@@ -87,6 +87,11 @@ nav .navButton{
 	display: inline;
 }
 
+nav .logout{
+	text-decoration: none;
+	color: blue;
+}
+
 /* Muda a cor do botão para a mesma cor do background quando o mouse está em cima */
 nav .navButton:hover
 {
@@ -307,34 +312,34 @@ Obs: o estilo do formulário destas páginas está ligeiramente diferente. */
 
 /* ------------- Classes exclusivas de loja.html. Unificar com outras? ------------- */
 
-.ProdutosVenda {
+.SalesProducts {
 	background-color: #EFE5D5;
 	height: 90%;
 	padding: 30px;
 }
 
-.Filtros {
+.Filters {
 	float: left;
 	background-color: #EFE5D5;
 	width: auto;
 }
 
-.Produtos {
+.Products {
 	background-color: #EFE5D5;
 	margin-left: 30%;
 	width: 60%;
 }
 
-.Produtos table {
+.Products table {
 	border: 2px #EFE5D5;
 }
 
-.Produtos td, th {
+.Products td, th {
 	border: 2px #EFE5D5;
 	text-align: center;
 }
 
-.Produtos table tr td img {
+.Products table tr td img {
 	width:100px;
 	height:100px;
 }
