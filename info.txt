@@ -1,3 +1,4 @@
+Ariella Yamada Brambila		8937034
 Guilherme Silva dos Anjos	8936839
 
 
@@ -15,7 +16,7 @@ cadastro_pet, cadastro_produto, cadastro_servico, cadastro_usuario: são realiza
 
 detalhes_pet, detalhes_produto: visão mais detalhada de um pet ou de um produto.
 
-detalhes_usuario: visão do administrador sobre o usuário. Nessa página o ADM consegue enxergar as informações de um usuario específico. Além disso, ele também consegue redirecionamento para agendar serviço ou cadastrar novos pets para esse usuário.
+detalhes_usuario: visão do administrador sobre o usuário. Nessa página o ADM consegue visualizar as informações de um usuario específico. Além disso, ele também consegue redirecionamento para agendar serviço ou cadastrar novos pets para esse usuário.
 
 ganhos: informações separadas sobre os ganhos por serviços e por venda de produtos, acessada pelo ADM.
 
@@ -27,6 +28,6 @@ index: página inicial do site, onde não há usuário logado e possui informaç
 
 loja: podem ser visualizados os produtos e adiciona-los ao carrinho para fazer as compras
 
-slots_horarios: página intermediária para escolher os horários nos agendamentos de serviços.
+slots_horarios: página intermediária para escolher os horários nos agendamentos de serviços. Ainda não está exatamente como deverá ficar na versão final do projeto, devido as limitações do mockup. Futuramente essa página será dinâmica e apresentará as datas de acordo com as especificações. Os slots de horário poderão variar de acordo com o serviço que será selecionado.
 
 style.css: folha de estilos do site
