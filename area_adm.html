@@ -20,32 +20,46 @@
 		<tr>
 			<th>Serviço</th>
 			<th>Data</th>
-			<th>Pet</th>
 			<th>Cliente</th>
+			<th>Pet</th>
 			<th>Preço</th>
+			<th></th>
 		</tr>
 		<tr>
 			<td>Reforço V10</td>
-			<td>12/04/2017 10:30</td>
+			<td>12/04/2017 10:30 <a href='schedule'>(reagendar)</a></td>
+			<td><a href='detalhes_usuario.html'>rodz</a></td>
 			<td>Toby</td>
-			<td><a href='detalhes_usuario.html'>rodz</td>
 			<td>R$99,90</td>
+			<td><a href='#schedule'>Cancelar</a></td>
 		</tr>
 		<tr>
 			<td>Banho e Tosa Higiênica</td>
-			<td>12/04/2017 10:45</td>
+			<td>12/04/2017 10:45 <a href='schedule'>(reagendar)</a></td>
+			<td><a href='detalhes_usuario.html'>rodz</a></td>
 			<td>Toby</td>
-			<td><a href='detalhes_usuario.html'>rodz</td>
 			<td>R$70,00</td>
+			<td><a href='#schedule'>Cancelar</a>
 		</tr>
 		<tr>
 			<td>Banho</td>
-			<td>12/04/2017 11:00</td>
+			<td>12/04/2017 11:00 <a href='schedule'>(reagendar)</a></td>
+			<td><a href='detalhes_usuario.html'>rodz</a></td>
 			<td><a href='detalhes_pet.html'>Kabosu</a></td>
-			<td><a href='detalhes_usuario.html'>rodz</td>
 			<td>R$50,00</td>
+			<td><a href='#schedule'>Cancelar</a></td>
+		</tr>
+		<tr>
+			<td>Banho</td>
+			<td>15/04/2017 16:00 <a href='schedule'>(reagendar)</a></td>
+			<td>pedro</td>
+			<td>Aurora</td>
+			<td>R$50,00</td>
+			<td><a href='#schedule'>Cancelar</a></td>
 		</tr>
 	</table>
+	<a id='hist' href='area_usuario.html#schedule'>Ver histórico de agendamentos</a>
+	<br/>
 	<a href='cadastro_servico.html'><button>Criar Novo Serviço</button></a>
  </div>
  <div class='content'>
@@ -98,29 +112,46 @@
  </div>
  <div class='content'>
  	<a name='users'></a>
+	
+	<h1>Usuários Cadastrados</h1>
+	<br/>
+	<input class='search' type="text" placeholder='Buscar usuários'></input>
+		<h4>por:</h4>
+	<select>
+		<option value='name'>Nome</option>
+		<option value='user'>Usuário</option>
+		<option value='tel'>Telefone</option>
+		<option value='email'>E-mail</option>
+		<option value='addr'>Endereço</option>
+		<option value='pet'>Pet</option>
+	</select>
  	<table>
-			<h1>Usuários Cadastrados</h1>
-			<tr>
-				<th><h3>Usuário</h3></th>
-				<th><h3>Nome</h3></th>
-				<th></th>
-			</tr>
-			<tr>
-				<td>rodz</td>
-				<td>Rodrigo Weigert</td>
-				<td><a href='detalhes_usuario.html'>Detalhes</a></td>
-			</tr>
-			<tr>
-				<td>AriellaYamada</td>
-				<td>AriellaYamada</td>
-				<td>Detalhes</td>
-			</tr>
-			<tr>
-				<td>admin</td>
-				<td>Administrador</td>
-				<td>Detalhes</td>
-			</tr>
-		</table>
+		<tr>
+			<th><h3>Usuário</h3></th>
+			<th><h3>Nome</h3></th>
+			<th></th>
+		</tr>
+		<tr>
+			<td>rodz</td>
+			<td>Rodrigo Weigert</td>
+			<td><a href='detalhes_usuario.html'>Detalhes</a></td>
+		</tr>
+		<tr>
+			<td>pedro</td>
+			<td>Pedro Bala</td>
+			<td>Detalhes</td>
+		</tr>
+		<tr>
+			<td>AriellaYamada</td>
+			<td>AriellaYamada</td>
+			<td>Detalhes</td>
+		</tr>
+		<tr>
+			<td>admin</td>
+			<td>Administrador</td>
+			<td>Detalhes</td>
+		</tr>
+	</table>
 	<a href='cadastro_usuario.html'><button>Cadastrar Novo Usuário</button></a>
  </div>
 

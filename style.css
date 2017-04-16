@@ -306,9 +306,10 @@ td, th {
 	color: #F56F42;
 }
 
-.Register form input {
+.Register form input, .Register select {
 	margin-top: 3px;
 	margin-bottom: 15px;
+	margin-left: 0px;
 }
 
 .Register form input[type=radio] {
@@ -399,4 +400,16 @@ td, th {
 	border-color: #568A8C;
 	padding: 2px;
 	float: left;
+}
+
+
+/*  ------------- Elementos relacionados a pagamento de serviço  ------------- */
+
+.CardFlag {	
+	height: 30px;
+}
+
+/* código de segurança de cartão */
+.CSC, .expdate {
+	width: 50px;
 }
