@@ -5,10 +5,13 @@
 	<link href='style.css' rel='stylesheet'/>
 </head>
 <body>
-	<nav> <h1> PetStop </h1></nav>
+	<nav>
+		<h1> PetStop </h1>
+		<p> Olá, Rodrigo <a class='logout' href='index.html'>(logout)</a></p>
+	</nav>
 	<div class='Register'>
 		<h1> Agendamento  de Serviço</h1>
-		<form>
+		<form method='post'>
 			<p>Pet:</p>
 			<select>
 				<option>Kabosu</option>
@@ -17,18 +20,27 @@
 			<p>Serviço:</p>
 			<select>
 				<option>Banho</option>
-				<option>Tosa</option>
+				<option>Banho e Tosa</option>
+				<option>Banho e Tosa Higiênica</option>
 				<option>Vacinação</option>
+				<option>Consulta Veterinánria</option>
 			</select>
-			<p>Profissional:</p>
-			<select>
-				<option>Carla</option>
-				<option>Fernando</option>
-				<option>Marcos</option>
-			</select>
-			<p>Numero do cartão:</p>
+			<p>Preço: R$ ... </p>
+			<br/>
+			<p>Número do Cartão de Crédito: </p>
 			<input type='text' name='CreditCard'></input>
-			<input type='submit' value='Agendar'/></p>
+			<p>Código de Segurança:</p>
+			<input class='CSC' type='text' name='CSC'></input>
+			<p>Validade:</p>
+			<input class='expdate' type='text' placeholder='mm/aa'></input>
+			
+			<p>Bandeira:</p>
+			<input type='radio' name='CardFlag'></input> <img class='CardFlag' src='img/visa.png' alt='Visa'</img>
+			<input type='radio' name='CardFlag'></input><img class='CardFlag' src='img/mastercard.png' alt='MasterCard'></img>
+			<input type='radio' name='CardFlag'></input><img class='CardFlag' src='img/amex.png' alt='American Express'></img>
+			<input type='radio' name='CardFlag'></input><img class='CardFlag' src='img/elo.png' alt='Elo'></img>
+			<br/>
+			<input type='submit' value='Agendar'/></input>
 		</form>
 	</div>
 	<footer>Todos os direitos reservados</footer>
