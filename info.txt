@@ -8,23 +8,23 @@ Descrição dos arquivos submetidos:
 
 Pasta img contém todas as imagens usadas no trabalho
 
-agendamento_servico: é a página final do agendamento de um serviço. Após escolher o slot de horário, nessa página é selecionado o pet, o serviço, o profissional e é informado o numero do cartão do cliente.
+agendamento_servico: é a página final do agendamento de um serviço. Após escolher o slot de horário, nessa página é selecionado o pet, o serviço, e são fornecidos os dados para o pagamento.
 
-area_adm: é a página inicial do adm. Assim que o login é feito com uma conta de adm, essa página aparece, contendo visão geral sobre futuros atendimentos, situação do estoque, visão geral dos usuários e informações sobre o perfil do próprio adm. Além disso, nessa página temos redirecionadores para páginas com maiores detalhes de produtos, usuários e de cadastros.
+area_adm: é a página inicial para administradores. Assim que o login é feito com uma conta de adm, essa página aparece, contendo visão geral sobre futuros atendimentos, situação do estoque, visão geral dos usuários e informações sobre o perfil do próprio adm. Além disso, nessa página temos redirecionadores para páginas com maiores detalhes de produtos, usuários e de cadastros.
 
-area_usuario: é a página inicial do usuário. Assim que o usuário loga, essa página aparece, contendo informações sobre os próximos atendimentos, pedidos, pets e do perfil do próprio usuário. Também nessa página temos redirecionadores para cadastros de novos pets e agendamentos de serviços, além de páginas contendo detalhes sobre os pets.
+area_usuario: é a página inicial para usuários. Assim que o usuário loga, essa página aparece, contendo informações sobre os próximos atendimentos, pedidos, pets e do perfil do próprio usuário. Também nessa página temos redirecionadores para cadastros de novos pets e agendamentos de serviços, além de páginas contendo detalhes sobre os pets.
 
 cadastro_pet, cadastro_produto, cadastro_servico, cadastro_usuario: são realizados cadastros, colhendo as informações necessárias.
 
-detalhes_pet, detalhes_produto: visão mais detalhada de um pet ou de um produto.
+detalhes_pet, detalhes_produto: visão mais detalhada de um pet ou de um produto. A do produto é exclusiva para administradores.
 
 detalhes_usuario: visão do administrador sobre o usuário. Nessa página o ADM consegue visualizar as informações de um usuario específico. Além disso, ele também consegue redirecionamento para agendar serviço ou cadastrar novos pets para esse usuário.
 
-ganhos: informações separadas sobre os ganhos por serviços e por venda de produtos, acessada pelo ADM.
+ganhos: informações separadas sobre os ganhos por serviços e por venda de produtos, acessível para administradores.
 
-gereciamento_estoque: ADM tem acesso e pode visualizar informações sobre os produtos, além de atualizar estoques e um botão onde ele é redirecionado para o cadastro  de novos produtos. É possível fazer buscas de um produto específico e visualizar informações mais detalhadas sobre ele.
+gereciamento_estoque: administradores têm acesso e pode visualizar informações sobre os produtos, além de atualizar estoques e um botão onde ele é redirecionado para o cadastro  de novos produtos. É possível fazer buscas de um produto específico e visualizar informações mais detalhadas sobre ele.
 
-gereciamento_usuario: semelhante ao gereciamento de estoque, o ADM consegue buscar usuários e visualizar informações mais detalhadas, além de um botão para cadastro de novos usuários.
+gereciamento_usuario: semelhante ao gereciamento de estoque, um administrador consegue buscar usuários e visualizar informações mais detalhadas, além de um botão para cadastro de novos usuários.
 
 index: página inicial do site, onde não há usuário logado e possui informações sobre o estabelecimento, dos serviços realizados e contatos.
 
