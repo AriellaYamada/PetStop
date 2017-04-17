@@ -68,6 +68,11 @@ nav h1 {
 	float:left;
 }
 
+nav h1 a{
+	color: inherit;
+	text-decoration: inherit;
+}
+
 /* Botões/links de navegação */
 nav .navButton{
 	background-color: #F06040;
@@ -114,7 +119,7 @@ nav form a button {
 	display: inline;
 }
 
-/* Saudação na nav bar da area_usuario.html */
+/* Saudação na nav bar de algumas páginas (exemplo: area_usuario.html) */
 
 nav p
 {
@@ -216,8 +221,9 @@ table {
 	margin-left: 5%;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	border-collapse: collapse;		/* antes só estava sendo usado na area_usuario.html, ver o que é melhor */
+	border-collapse: collapse;
 }
+
 
 table, td, th {
 	border: 2px solid #69DDC3;
@@ -231,7 +237,7 @@ td, th {
 
 /* ------------- Divs com conteúdo principal ------------- */
 
-/* Classe content, seria a div onde se põe os conteúdos principais do site? */
+/* Classe content, div onde são colocados conteúdo em geral */
 
 .content {
 	background-color: #EFE5D5;
@@ -256,12 +262,12 @@ td, th {
 	margin-left: 20px;
 }
 
-/* margem da tag <a> na area de historico do usuario */
+/* margem da tag <a> nas áreas do usuário e administrador */
 #hist {
 	margin-left: 5%;
 }
 
-/* Melhorar estilo dos links? */
+/* Links */
 .content a:link, .content a:visited {
 	text-decoration: none;
 	color: blue;
@@ -285,7 +291,7 @@ td, th {
 	margin-left: 5%;
 }
 
-/* Register contém formulário de cadastro. É usada em cadastro_pet.html, cadastro_usuario.html, cadastro_produto.html.*/
+/* Register contém formulário de cadastro. É usado em todas as páginas de cadastros. */
 
 .Register {
 	background-color: #EFE5D5;
@@ -316,7 +322,7 @@ td, th {
 	margin-right: 5px;
 }
 
-/* ------------- Classes exclusivas de loja.html. Unificar com outras? ------------- */
+/* ------------- Classes exclusivas de loja.html. ------------- */
 
 .SalesProducts {
 	background-color: #EFE5D5;
@@ -350,7 +356,7 @@ td, th {
 	height:100px;
 }
 
-/* ------------- Descrições de Pets (area_usuario.html) ------------- */
+/* ------------- Descrições de Pets (area_usuario.html, detalhes_usario.html) ------------- */
 
 .petdesc {
 	border: solid;
