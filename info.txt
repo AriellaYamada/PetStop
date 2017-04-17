@@ -6,7 +6,7 @@ Rodrigo de Andrade Santos Weigert	8937503
 
 Descrição dos arquivos submetidos:
 
-Pasta img contém todas as imagens usadas no trabalho
+Pasta img contém todas as imagens usadas no trabalho.
 
 agendamento_servico: é a página final do agendamento de um serviço. Após escolher o slot de horário, nessa página é selecionado o pet, o serviço, e são fornecidos os dados para o pagamento.
 
@@ -14,7 +14,7 @@ area_adm: é a página inicial para administradores. Assim que o login é feito 
 
 area_usuario: é a página inicial para usuários. Assim que o usuário loga, essa página aparece, contendo informações sobre os próximos atendimentos, pedidos, pets e do perfil do próprio usuário. Também nessa página temos redirecionadores para cadastros de novos pets e agendamentos de serviços, além de páginas contendo detalhes sobre os pets.
 
-cadastro_pet, cadastro_produto, cadastro_servico, cadastro_usuario: são realizados cadastros, colhendo as informações necessárias.
+cadastro_pet, cadastro_produto, cadastro_servico, cadastro_usuario: são realizados cadastros, colhendo as informações necessárias. Apenas o cadastro_pet é acessível ao cliente, os outros são acessíveis apenas a administradores.
 
 detalhes_pet, detalhes_produto: visão mais detalhada de um pet ou de um produto. A do produto é exclusiva para administradores.
 
