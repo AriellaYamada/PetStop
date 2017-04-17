@@ -16,7 +16,7 @@ area_usuario: é a página inicial para usuários. Assim que o usuário loga, es
 
 cadastro_pet, cadastro_produto, cadastro_servico, cadastro_usuario: são realizados cadastros, colhendo as informações necessárias. Apenas o cadastro_pet é acessível ao cliente, os outros são acessíveis apenas a administradores.
 
-detalhes_pet, detalhes_produto: visão mais detalhada de um pet ou de um produto. A do produto é exclusiva para administradores.
+detalhes_pet, detalhes_produto, detalhes_prod_loja: visão mais detalhada de um pet ou de um produto. A do produto é exclusiva para administradores, e a do produto_loja é para o cliente.
 
 detalhes_usuario: visão do administrador sobre o usuário. Nessa página o ADM consegue visualizar as informações de um usuario específico. Além disso, ele também consegue redirecionamento para agendar serviço ou cadastrar novos pets para esse usuário.
 
@@ -25,6 +25,8 @@ ganhos: informações separadas sobre os ganhos por serviços e por venda de pro
 gereciamento_estoque: administradores têm acesso e pode visualizar informações sobre os produtos, além de atualizar estoques e um botão onde ele é redirecionado para o cadastro  de novos produtos. É possível fazer buscas de um produto específico e visualizar informações mais detalhadas sobre ele.
 
 gereciamento_usuario: semelhante ao gereciamento de estoque, um administrador consegue buscar usuários e visualizar informações mais detalhadas, além de um botão para cadastro de novos usuários.
+
+gerenciamento_servicos: possui as mesmas funcionalidades de estoque e usuario, possibilita o administrador e realizar todas as buscas, atulizar e incluir informações sobre serviços que são realizados no estabelecimento.
 
 index: página inicial do site, onde não há usuário logado e possui informações sobre o estabelecimento, dos serviços realizados e contatos.
 
