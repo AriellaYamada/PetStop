@@ -9,8 +9,10 @@
   	<h1> <a href='index.html'>PetStop </a> </h1>
 	<a class='navButton' href='#schedule'>Agendamentos</a>
 	<a class='navButton' href='#products'>Estoque</a>
+	<a class='navButton' href='#services'>Serviços</a>
 	<a class='navButton' href='#users'>Usuários</a>
 	<a class='navButton' href='#profile'>Seu Perfil</a>
+	<a class='navButton' href='ganhos.html'>Ganhos</a>
 	<p> Olá, Administrador<a class='logout' href='index.html'>(logout)</a></p>
 	</nav>
  <div class='content'>
@@ -116,8 +118,54 @@
 	<button>Atualizar Quantidades do Estoque</button>
  </div>
  <div class='content'>
+	 <a name='sevices'></a>
+	 <h1>Serviços</h1>
+	 <br/>
+	 <input class='search' type="text" placeholder='Buscar serviços'></input>
+	 por:
+	 <select>
+		 <option value='name'>Nome</option>
+		 <option value='id'>ID</option>
+		 <option value='description'>Descrição</option>
+		 <option value='price'>Preço</option>
+	 </select>
+	 <br/>
+	 <br/>
+	 <table>
+		 <tr>
+			 <th>Nome</th>
+			 <th>ID</th>
+			 <th>Descrição</th>
+			 <th>Preço</th>
+			 <th>Detalhes</th>
+		 </tr>
+		 <tr>
+			 <td>Reforço V10</td>
+			 <td>1234</td>
+			 <td>Vacinação</td>
+			 <td>R$99,90</td>
+			 <td><a href='detalhes_servico.html'>Detalhes</a></td>
+		 </tr>
+		 <tr>
+			 <td>Banho e Tosa Higiênica</td>
+			 <td>5678</td>
+			 <td>Banho e Tosa Higiênica</td>
+			 <td>R$70,00</td>
+			 <td>Detalhes</td>
+		 </tr>
+		 <tr>
+			 <td>Banho</td>
+			 <td>9012</td>
+			 <td>Banho</td>
+			 <td>R$50,00</td>
+			 <td>Detalhes</td>
+		 </tr>
+	 </table>
+	 <a href='cadastro_servico.html'><button>Cadastrar Novo</button></a>
+ </div>
+ <div class='content'>
  	<a name='users'></a>
-	
+
 	<h1>Usuários Cadastrados</h1>
 	<br/>
 	<input class='search' type="text" placeholder='Buscar usuários'></input>
